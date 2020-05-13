@@ -1,0 +1,1669 @@
+13:44:45.795|INFO|Starting.. 
+13:44:45.911|DEBUG|Hosting starting 
+13:44:46.086|INFO|User profile is available. Using 'C:\Users\syenumula\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+13:44:46.263|DEBUG|Reading data from file 'C:\Users\syenumula\AppData\Local\ASP.NET\DataProtection-Keys\key-86504117-c695-4464-9347-adf5341284a4.xml'. 
+13:44:46.270|DEBUG|Reading data from file 'C:\Users\syenumula\AppData\Local\ASP.NET\DataProtection-Keys\key-ea37f9cf-a7b6-48c3-8edd-f4a0bdb9ad91.xml'. 
+13:44:46.270|DEBUG|Found key {86504117-c695-4464-9347-adf5341284a4}. 
+13:44:46.282|DEBUG|Found key {ea37f9cf-a7b6-48c3-8edd-f4a0bdb9ad91}. 
+13:44:46.282|DEBUG|Considering key {ea37f9cf-a7b6-48c3-8edd-f4a0bdb9ad91} with expiration date 2020-07-20 20:28:02Z as default key. 
+13:44:46.339|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+13:44:46.341|DEBUG|Decrypting secret element using Windows DPAPI. 
+13:44:46.341|DEBUG|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+13:44:46.341|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+13:44:46.360|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+13:44:46.360|DEBUG|Using key {ea37f9cf-a7b6-48c3-8edd-f4a0bdb9ad91} as the default key. 
+13:44:46.360|DEBUG|Key ring with default key {ea37f9cf-a7b6-48c3-8edd-f4a0bdb9ad91} was loaded during application startup. 
+13:44:46.564|DEBUG|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+13:44:46.564|DEBUG|Registered SignalR Protocol: messagepack, implemented by Microsoft.AspNetCore.SignalR.Protocol.MessagePackHubProtocol. 
+13:44:46.732|DEBUG|Failed to locate the development https certificate at '(null)'. 
+13:44:46.827|INFO|Now listening on: http://[::]:52776 
+13:44:46.827|DEBUG|Loaded hosting startup assembly SignalrServer 
+13:44:46.906|INFO|Application started. Press Ctrl+C to shut down. 
+13:44:46.906|INFO|Hosting environment: Production 
+13:44:46.906|INFO|Content root path: C:\Users\syenumula\source\repos\SignalrClient\SignalrServer\bin\Debug\netcoreapp3.1 
+13:44:46.906|DEBUG|Hosting started 
+13:45:05.740|DEBUG|Connection id "0HLVNCLFJ9EUD" accepted. 
+13:45:05.740|DEBUG|Connection id "0HLVNCLFJ9EUD" started. 
+13:45:05.816|INFO|Request starting HTTP/1.1 POST http://127.0.0.1:52776/relayhub/negotiate?negotiateVersion=1  0 
+13:45:05.816|DEBUG|Wildcard detected, all requests with hosts will be allowed. 
+13:45:05.862|DEBUG|1 candidate(s) found for the request path '/relayhub/negotiate' 
+13:45:05.862|DEBUG|Request matched endpoint '/relayhub/negotiate' 
+13:45:05.937|DEBUG|AuthenticationScheme: Negotiate was not authenticated. 
+13:45:05.953|INFO|Authorization failed. 
+13:45:05.953|DEBUG|Challenged 401 Negotiate 
+13:45:05.953|INFO|AuthenticationScheme: Negotiate was challenged. 
+13:45:05.988|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:05.988|INFO|Request finished in 175.7552ms 401  
+13:45:06.073|INFO|Request starting HTTP/1.1 POST http://127.0.0.1:52776/relayhub/negotiate?negotiateVersion=1  0 
+13:45:06.073|DEBUG|1 candidate(s) found for the request path '/relayhub/negotiate' 
+13:45:06.085|DEBUG|Request matched endpoint '/relayhub/negotiate' 
+13:45:06.156|INFO|None 
+13:45:06.156|INFO|Incomplete Negotiate handshake, sending an additional 401 Negotiate challenge. 
+13:45:06.156|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:06.156|INFO|Request finished in 91.6352ms 401  
+13:45:06.171|INFO|Request starting HTTP/1.1 POST http://127.0.0.1:52776/relayhub/negotiate?negotiateVersion=1  0 
+13:45:06.171|DEBUG|1 candidate(s) found for the request path '/relayhub/negotiate' 
+13:45:06.171|DEBUG|Request matched endpoint '/relayhub/negotiate' 
+13:45:06.197|INFO|None 
+13:45:06.197|DEBUG|Completed Negotiate authentication. 
+13:45:06.209|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:06.209|INFO|Authorization was successful. 
+13:45:06.217|INFO|Executing endpoint '/relayhub/negotiate' 
+13:45:06.217|DEBUG|New connection YRWEcsCZH3QVus_q3Tx9-Q created. 
+13:45:06.235|DEBUG|Sending negotiation response. 
+13:45:06.235|INFO|Executed endpoint '/relayhub/negotiate' 
+13:45:06.235|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:06.235|INFO|Request finished in 73.4479ms 200 application/json 
+13:45:06.430|DEBUG|Connection id "0HLVNCLFJ9EUE" accepted. 
+13:45:06.430|DEBUG|Connection id "0HLVNCLFJ9EUE" started. 
+13:45:06.453|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=fyKFvlZwkjsJ4uWsXDWKGQ   
+13:45:06.453|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:06.453|DEBUG|Request matched endpoint '/relayhub' 
+13:45:06.453|DEBUG|AuthenticationScheme: Negotiate was not authenticated. 
+13:45:06.453|INFO|Authorization failed. 
+13:45:06.468|DEBUG|Challenged 401 Negotiate 
+13:45:06.468|INFO|AuthenticationScheme: Negotiate was challenged. 
+13:45:06.468|INFO|Request finished in 18.5221ms 401  
+13:45:06.468|DEBUG|Connection id "0HLVNCLFJ9EUF" accepted. 
+13:45:06.468|DEBUG|Connection id "0HLVNCLFJ9EUE" disconnecting. 
+13:45:06.468|DEBUG|Connection id "0HLVNCLFJ9EUF" started. 
+13:45:06.468|DEBUG|Connection id "0HLVNCLFJ9EUE" stopped. 
+13:45:06.468|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=fyKFvlZwkjsJ4uWsXDWKGQ   
+13:45:06.484|DEBUG|Connection id "0HLVNCLFJ9EUE" sending FIN because: "The Socket transport's send loop completed gracefully." 
+13:45:06.484|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:06.498|DEBUG|Request matched endpoint '/relayhub' 
+13:45:06.552|INFO|None 
+13:45:06.569|INFO|Incomplete Negotiate handshake, sending an additional 401 Negotiate challenge. 
+13:45:06.569|INFO|Request finished in 91.5334ms 401  
+13:45:06.569|DEBUG|Connection id "0HLVNCLFJ9EUF" disconnecting. 
+13:45:06.576|DEBUG|Connection id "0HLVNCLFJ9EUF" stopped. 
+13:45:06.576|DEBUG|Connection id "0HLVNCLFJ9EUF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+13:45:07.483|INFO|Request starting HTTP/1.1 POST http://127.0.0.1:52776/relayhub/negotiate?negotiateVersion=1  0 
+13:45:07.483|DEBUG|1 candidate(s) found for the request path '/relayhub/negotiate' 
+13:45:07.483|DEBUG|Request matched endpoint '/relayhub/negotiate' 
+13:45:07.504|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:07.504|INFO|Authorization was successful. 
+13:45:07.504|INFO|Executing endpoint '/relayhub/negotiate' 
+13:45:07.514|DEBUG|New connection 9yCBSIiXwGhMRcdbLtcFrA created. 
+13:45:07.514|DEBUG|Sending negotiation response. 
+13:45:07.514|INFO|Executed endpoint '/relayhub/negotiate' 
+13:45:07.514|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:07.514|INFO|Request finished in 44.3276ms 200 application/json 
+13:45:07.530|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:07.530|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:07.530|DEBUG|Request matched endpoint '/relayhub' 
+13:45:07.530|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:07.530|INFO|Authorization was successful. 
+13:45:07.545|INFO|Executing endpoint '/relayhub' 
+13:45:07.575|DEBUG|Establishing new connection. 
+13:45:07.581|INFO|Executed endpoint '/relayhub' 
+13:45:07.581|DEBUG|OnConnectedAsync started. 
+13:45:07.581|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:07.581|INFO|Request finished in 56.1732ms 200 application/octet-stream 
+13:45:07.620|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:07.620|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:07.624|DEBUG|Request matched endpoint '/relayhub' 
+13:45:07.624|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:07.624|INFO|Authorization was successful. 
+13:45:07.624|INFO|Executing endpoint '/relayhub' 
+13:45:07.624|DEBUG|Resuming existing connection. 
+13:45:07.669|DEBUG|Connection id "0HLVNCLFJ9EUG" accepted. 
+13:45:07.669|DEBUG|Connection id "0HLVNCLFJ9EUG" started. 
+13:45:07.669|INFO|Request starting HTTP/1.1 POST http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA  39 
+13:45:07.669|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:07.688|DEBUG|Request matched endpoint '/relayhub' 
+13:45:07.688|DEBUG|AuthenticationScheme: Negotiate was not authenticated. 
+13:45:07.688|INFO|Authorization failed. 
+13:45:07.688|DEBUG|Challenged 401 Negotiate 
+13:45:07.702|INFO|AuthenticationScheme: Negotiate was challenged. 
+13:45:07.702|DEBUG|Connection id "0HLVNCLFJ9EUG" completed keep alive response. 
+13:45:07.702|INFO|Request finished in 29.3405ms 401  
+13:45:07.702|DEBUG|Connection id "0HLVNCLFJ9EUG", Request id "0HLVNCLFJ9EUG:00000001": started reading request body. 
+13:45:07.702|DEBUG|Connection id "0HLVNCLFJ9EUG", Request id "0HLVNCLFJ9EUG:00000001": done reading request body. 
+13:45:07.717|INFO|Request starting HTTP/1.1 POST http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA  39 
+13:45:07.717|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:07.717|DEBUG|Request matched endpoint '/relayhub' 
+13:45:07.717|INFO|None 
+13:45:07.717|INFO|Incomplete Negotiate handshake, sending an additional 401 Negotiate challenge. 
+13:45:07.732|DEBUG|Connection id "0HLVNCLFJ9EUG" completed keep alive response. 
+13:45:07.732|INFO|Request finished in 16.2414ms 401  
+13:45:07.732|DEBUG|Connection id "0HLVNCLFJ9EUG", Request id "0HLVNCLFJ9EUG:00000002": started reading request body. 
+13:45:07.732|DEBUG|Connection id "0HLVNCLFJ9EUG", Request id "0HLVNCLFJ9EUG:00000002": done reading request body. 
+13:45:07.732|INFO|Request starting HTTP/1.1 POST http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA  39 
+13:45:07.732|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:07.752|DEBUG|Request matched endpoint '/relayhub' 
+13:45:07.752|INFO|None 
+13:45:07.752|DEBUG|Completed Negotiate authentication. 
+13:45:07.752|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:07.764|INFO|Authorization was successful. 
+13:45:07.764|INFO|Executing endpoint '/relayhub' 
+13:45:07.764|DEBUG|Connection id "0HLVNCLFJ9EUG", Request id "0HLVNCLFJ9EUG:00000003": started reading request body. 
+13:45:07.764|DEBUG|Connection id "0HLVNCLFJ9EUG", Request id "0HLVNCLFJ9EUG:00000003": done reading request body. 
+13:45:07.780|INFO|Executed endpoint '/relayhub' 
+13:45:07.780|DEBUG|Connection id "0HLVNCLFJ9EUG" completed keep alive response. 
+13:45:07.780|INFO|Request finished in 42.5832ms 200 text/plain 
+13:45:07.780|DEBUG|Found protocol implementation for requested protocol: messagepack. 
+13:45:07.848|DEBUG|Completed connection handshake. Using HubProtocol 'messagepack'. 
+13:45:07.878|INFO|Executed endpoint '/relayhub' 
+13:45:07.878|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:07.878|INFO|Request finished in 266.3739ms 200 application/octet-stream 
+13:45:07.878|INFO|Connected : 9yCBSIiXwGhMRcdbLtcFrA User :enterprise\SYENUMULA On :LongPolling 
+13:45:07.888|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:07.888|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:07.888|DEBUG|Request matched endpoint '/relayhub' 
+13:45:07.888|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:07.906|INFO|Authorization was successful. 
+13:45:07.906|INFO|Executing endpoint '/relayhub' 
+13:45:07.906|DEBUG|Resuming existing connection. 
+13:45:07.967|INFO|Executed endpoint '/relayhub' 
+13:45:07.967|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:07.967|INFO|Request finished in 91.3923ms 200 application/octet-stream 
+13:45:07.997|INFO|Request starting HTTP/1.1 POST http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA  3 
+13:45:07.999|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:07.999|DEBUG|Request matched endpoint '/relayhub' 
+13:45:07.999|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:07.999|INFO|Authorization was successful. 
+13:45:07.999|INFO|Executing endpoint '/relayhub' 
+13:45:07.999|DEBUG|Connection id "0HLVNCLFJ9EUG", Request id "0HLVNCLFJ9EUG:00000004": started reading request body. 
+13:45:07.999|DEBUG|Connection id "0HLVNCLFJ9EUG", Request id "0HLVNCLFJ9EUG:00000004": done reading request body. 
+13:45:08.014|INFO|Executed endpoint '/relayhub' 
+13:45:08.014|DEBUG|Connection id "0HLVNCLFJ9EUG" completed keep alive response. 
+13:45:08.014|INFO|Request finished in 21.3882ms 200 text/plain 
+13:45:08.014|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.014|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.014|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.014|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.014|INFO|Authorization was successful. 
+13:45:08.014|INFO|Executing endpoint '/relayhub' 
+13:45:08.029|DEBUG|Resuming existing connection. 
+13:45:08.029|INFO|Executed endpoint '/relayhub' 
+13:45:08.029|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.029|INFO|Request finished in 18.0743ms 200 application/octet-stream 
+13:45:08.029|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.029|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.029|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.045|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.045|INFO|Authorization was successful. 
+13:45:08.045|INFO|Executing endpoint '/relayhub' 
+13:45:08.045|DEBUG|Resuming existing connection. 
+13:45:08.045|INFO|Executed endpoint '/relayhub' 
+13:45:08.045|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.060|INFO|Request finished in 18.7445ms 200 application/octet-stream 
+13:45:08.060|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.077|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.077|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.077|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.077|INFO|Authorization was successful. 
+13:45:08.077|INFO|Executing endpoint '/relayhub' 
+13:45:08.077|DEBUG|Resuming existing connection. 
+13:45:08.077|INFO|Executed endpoint '/relayhub' 
+13:45:08.092|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.092|INFO|Request finished in 18.4584ms 200 application/octet-stream 
+13:45:08.092|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.092|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.092|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.092|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.092|INFO|Authorization was successful. 
+13:45:08.092|INFO|Executing endpoint '/relayhub' 
+13:45:08.109|DEBUG|Resuming existing connection. 
+13:45:08.109|INFO|Executed endpoint '/relayhub' 
+13:45:08.109|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.109|INFO|Request finished in 16.8743ms 200 application/octet-stream 
+13:45:08.109|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.109|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.109|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.109|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.123|INFO|Authorization was successful. 
+13:45:08.123|INFO|Executing endpoint '/relayhub' 
+13:45:08.123|DEBUG|Resuming existing connection. 
+13:45:08.123|INFO|Executed endpoint '/relayhub' 
+13:45:08.123|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.123|INFO|Request finished in 21.0491ms 200 application/octet-stream 
+13:45:08.139|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.139|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.139|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.139|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.155|INFO|Authorization was successful. 
+13:45:08.155|INFO|Executing endpoint '/relayhub' 
+13:45:08.155|DEBUG|Resuming existing connection. 
+13:45:08.155|INFO|Executed endpoint '/relayhub' 
+13:45:08.155|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.155|INFO|Request finished in 27.2154ms 200 application/octet-stream 
+13:45:08.155|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.172|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.172|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.172|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.185|INFO|Authorization was successful. 
+13:45:08.185|INFO|Executing endpoint '/relayhub' 
+13:45:08.185|DEBUG|Resuming existing connection. 
+13:45:08.185|INFO|Executed endpoint '/relayhub' 
+13:45:08.185|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.185|INFO|Request finished in 28.8033ms 200 application/octet-stream 
+13:45:08.227|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.227|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.227|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.234|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.234|INFO|Authorization was successful. 
+13:45:08.234|INFO|Executing endpoint '/relayhub' 
+13:45:08.234|DEBUG|Resuming existing connection. 
+13:45:08.234|INFO|Executed endpoint '/relayhub' 
+13:45:08.234|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.248|INFO|Request finished in 20.9542ms 200 application/octet-stream 
+13:45:08.248|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.248|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.248|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.248|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.248|INFO|Authorization was successful. 
+13:45:08.248|INFO|Executing endpoint '/relayhub' 
+13:45:08.264|DEBUG|Resuming existing connection. 
+13:45:08.264|INFO|Executed endpoint '/relayhub' 
+13:45:08.264|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.264|INFO|Request finished in 15.8937ms 200 application/octet-stream 
+13:45:08.264|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.264|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.264|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.264|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.280|INFO|Authorization was successful. 
+13:45:08.280|INFO|Executing endpoint '/relayhub' 
+13:45:08.280|DEBUG|Resuming existing connection. 
+13:45:08.280|INFO|Executed endpoint '/relayhub' 
+13:45:08.280|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.280|INFO|Request finished in 19.1986ms 200 application/octet-stream 
+13:45:08.280|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.280|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.296|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.296|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.296|INFO|Authorization was successful. 
+13:45:08.296|INFO|Executing endpoint '/relayhub' 
+13:45:08.296|DEBUG|Resuming existing connection. 
+13:45:08.310|INFO|Executed endpoint '/relayhub' 
+13:45:08.310|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.310|INFO|Request finished in 29.8806ms 200 application/octet-stream 
+13:45:08.328|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.328|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.328|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.346|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.346|INFO|Authorization was successful. 
+13:45:08.362|INFO|Executing endpoint '/relayhub' 
+13:45:08.362|DEBUG|Resuming existing connection. 
+13:45:08.376|INFO|Executed endpoint '/relayhub' 
+13:45:08.376|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.376|INFO|Request finished in 56.1848ms 200 application/octet-stream 
+13:45:08.389|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.389|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.408|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.408|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.408|INFO|Authorization was successful. 
+13:45:08.408|INFO|Executing endpoint '/relayhub' 
+13:45:08.408|DEBUG|Resuming existing connection. 
+13:45:08.408|INFO|Executed endpoint '/relayhub' 
+13:45:08.408|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.408|INFO|Request finished in 30.4297ms 200 application/octet-stream 
+13:45:08.421|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.421|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.421|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.421|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.421|INFO|Authorization was successful. 
+13:45:08.421|INFO|Executing endpoint '/relayhub' 
+13:45:08.421|DEBUG|Resuming existing connection. 
+13:45:08.421|INFO|Executed endpoint '/relayhub' 
+13:45:08.421|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.438|INFO|Request finished in 17.5573ms 200 application/octet-stream 
+13:45:08.438|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.438|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.438|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.438|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.438|INFO|Authorization was successful. 
+13:45:08.438|INFO|Executing endpoint '/relayhub' 
+13:45:08.451|DEBUG|Resuming existing connection. 
+13:45:08.451|INFO|Executed endpoint '/relayhub' 
+13:45:08.451|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.451|INFO|Request finished in 15.2343ms 200 application/octet-stream 
+13:45:08.451|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.451|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.451|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.451|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.451|INFO|Authorization was successful. 
+13:45:08.451|INFO|Executing endpoint '/relayhub' 
+13:45:08.467|DEBUG|Resuming existing connection. 
+13:45:08.467|INFO|Executed endpoint '/relayhub' 
+13:45:08.467|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.467|INFO|Request finished in 17.4145ms 200 application/octet-stream 
+13:45:08.467|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.467|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.467|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.467|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.484|INFO|Authorization was successful. 
+13:45:08.484|INFO|Executing endpoint '/relayhub' 
+13:45:08.484|DEBUG|Resuming existing connection. 
+13:45:08.484|INFO|Executed endpoint '/relayhub' 
+13:45:08.484|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.484|INFO|Request finished in 19.7768ms 200 application/octet-stream 
+13:45:08.498|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.498|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.498|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.498|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.498|INFO|Authorization was successful. 
+13:45:08.498|INFO|Executing endpoint '/relayhub' 
+13:45:08.498|DEBUG|Resuming existing connection. 
+13:45:08.498|INFO|Executed endpoint '/relayhub' 
+13:45:08.498|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.498|INFO|Request finished in 15.4148ms 200 application/octet-stream 
+13:45:08.515|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.515|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.515|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.515|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.515|INFO|Authorization was successful. 
+13:45:08.515|INFO|Executing endpoint '/relayhub' 
+13:45:08.515|DEBUG|Resuming existing connection. 
+13:45:08.529|INFO|Executed endpoint '/relayhub' 
+13:45:08.529|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.529|INFO|Request finished in 16.5459ms 200 application/octet-stream 
+13:45:08.529|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.529|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.549|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.549|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.549|INFO|Authorization was successful. 
+13:45:08.565|INFO|Executing endpoint '/relayhub' 
+13:45:08.578|DEBUG|Resuming existing connection. 
+13:45:08.578|INFO|Executed endpoint '/relayhub' 
+13:45:08.601|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.601|INFO|Request finished in 70.5317ms 200 application/octet-stream 
+13:45:08.601|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.610|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.610|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.610|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.610|INFO|Authorization was successful. 
+13:45:08.610|INFO|Executing endpoint '/relayhub' 
+13:45:08.624|DEBUG|Resuming existing connection. 
+13:45:08.624|INFO|Executed endpoint '/relayhub' 
+13:45:08.624|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.624|INFO|Request finished in 23.8772ms 200 application/octet-stream 
+13:45:08.624|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.624|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.624|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.624|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.639|INFO|Authorization was successful. 
+13:45:08.639|INFO|Executing endpoint '/relayhub' 
+13:45:08.639|DEBUG|Resuming existing connection. 
+13:45:08.639|INFO|Executed endpoint '/relayhub' 
+13:45:08.639|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.639|INFO|Request finished in 20.5817ms 200 application/octet-stream 
+13:45:08.655|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.655|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.655|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.655|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.655|INFO|Authorization was successful. 
+13:45:08.655|INFO|Executing endpoint '/relayhub' 
+13:45:08.671|DEBUG|Resuming existing connection. 
+13:45:08.671|INFO|Executed endpoint '/relayhub' 
+13:45:08.671|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.671|INFO|Request finished in 27.1949ms 200 application/octet-stream 
+13:45:08.671|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.671|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.686|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.686|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.686|INFO|Authorization was successful. 
+13:45:08.686|INFO|Executing endpoint '/relayhub' 
+13:45:08.686|DEBUG|Resuming existing connection. 
+13:45:08.686|INFO|Executed endpoint '/relayhub' 
+13:45:08.686|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.686|INFO|Request finished in 16.1794ms 200 application/octet-stream 
+13:45:08.704|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.704|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.704|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.704|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.704|INFO|Authorization was successful. 
+13:45:08.704|INFO|Executing endpoint '/relayhub' 
+13:45:08.704|DEBUG|Resuming existing connection. 
+13:45:08.718|INFO|Executed endpoint '/relayhub' 
+13:45:08.718|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.718|INFO|Request finished in 19.223ms 200 application/octet-stream 
+13:45:08.718|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.718|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.718|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.733|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.733|INFO|Authorization was successful. 
+13:45:08.733|INFO|Executing endpoint '/relayhub' 
+13:45:08.733|DEBUG|Resuming existing connection. 
+13:45:08.733|INFO|Executed endpoint '/relayhub' 
+13:45:08.733|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.748|INFO|Request finished in 22.019ms 200 application/octet-stream 
+13:45:08.748|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.748|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.748|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.748|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.766|INFO|Authorization was successful. 
+13:45:08.766|INFO|Executing endpoint '/relayhub' 
+13:45:08.766|DEBUG|Resuming existing connection. 
+13:45:08.766|INFO|Executed endpoint '/relayhub' 
+13:45:08.766|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.783|INFO|Request finished in 33.8676ms 200 application/octet-stream 
+13:45:08.783|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.783|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.783|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.794|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.794|INFO|Authorization was successful. 
+13:45:08.794|INFO|Executing endpoint '/relayhub' 
+13:45:08.815|DEBUG|Resuming existing connection. 
+13:45:08.815|INFO|Executed endpoint '/relayhub' 
+13:45:08.815|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.831|INFO|Request finished in 43.926ms 200 application/octet-stream 
+13:45:08.831|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.831|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.831|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.831|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.842|INFO|Authorization was successful. 
+13:45:08.842|INFO|Executing endpoint '/relayhub' 
+13:45:08.842|DEBUG|Resuming existing connection. 
+13:45:08.842|INFO|Executed endpoint '/relayhub' 
+13:45:08.842|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.842|INFO|Request finished in 22.3932ms 200 application/octet-stream 
+13:45:08.842|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.858|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.858|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.858|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.858|INFO|Authorization was successful. 
+13:45:08.874|INFO|Executing endpoint '/relayhub' 
+13:45:08.874|DEBUG|Resuming existing connection. 
+13:45:08.874|INFO|Executed endpoint '/relayhub' 
+13:45:08.874|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.874|INFO|Request finished in 24.3198ms 200 application/octet-stream 
+13:45:08.874|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.874|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.874|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.890|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.890|INFO|Authorization was successful. 
+13:45:08.890|INFO|Executing endpoint '/relayhub' 
+13:45:08.890|DEBUG|Resuming existing connection. 
+13:45:08.890|INFO|Executed endpoint '/relayhub' 
+13:45:08.890|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.905|INFO|Request finished in 20.0971ms 200 application/octet-stream 
+13:45:08.905|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.905|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.905|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.905|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.905|INFO|Authorization was successful. 
+13:45:08.905|INFO|Executing endpoint '/relayhub' 
+13:45:08.919|DEBUG|Resuming existing connection. 
+13:45:08.919|INFO|Executed endpoint '/relayhub' 
+13:45:08.919|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.919|INFO|Request finished in 20.1403ms 200 application/octet-stream 
+13:45:08.919|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.919|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.919|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.919|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.936|INFO|Authorization was successful. 
+13:45:08.936|INFO|Executing endpoint '/relayhub' 
+13:45:08.936|DEBUG|Resuming existing connection. 
+13:45:08.936|INFO|Executed endpoint '/relayhub' 
+13:45:08.936|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.936|INFO|Request finished in 14.4025ms 200 application/octet-stream 
+13:45:08.951|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.951|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.951|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.951|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.951|INFO|Authorization was successful. 
+13:45:08.951|INFO|Executing endpoint '/relayhub' 
+13:45:08.951|DEBUG|Resuming existing connection. 
+13:45:08.951|INFO|Executed endpoint '/relayhub' 
+13:45:08.951|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:08.967|INFO|Request finished in 16.2491ms 200 application/octet-stream 
+13:45:08.967|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:08.967|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:08.967|DEBUG|Request matched endpoint '/relayhub' 
+13:45:08.967|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:08.967|INFO|Authorization was successful. 
+13:45:08.967|INFO|Executing endpoint '/relayhub' 
+13:45:08.967|DEBUG|Resuming existing connection. 
+13:45:08.988|INFO|Executed endpoint '/relayhub' 
+13:45:08.988|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.005|INFO|Request finished in 36.57ms 200 application/octet-stream 
+13:45:09.005|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.005|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.005|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.005|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.014|INFO|Authorization was successful. 
+13:45:09.014|INFO|Executing endpoint '/relayhub' 
+13:45:09.014|DEBUG|Resuming existing connection. 
+13:45:09.014|INFO|Executed endpoint '/relayhub' 
+13:45:09.014|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.029|INFO|Request finished in 22.6575ms 200 application/octet-stream 
+13:45:09.029|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.029|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.029|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.046|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.046|INFO|Authorization was successful. 
+13:45:09.061|INFO|Executing endpoint '/relayhub' 
+13:45:09.061|DEBUG|Resuming existing connection. 
+13:45:09.061|INFO|Executed endpoint '/relayhub' 
+13:45:09.061|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.061|INFO|Request finished in 42.0816ms 200 application/octet-stream 
+13:45:09.078|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.078|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.078|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.078|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.078|INFO|Authorization was successful. 
+13:45:09.091|INFO|Executing endpoint '/relayhub' 
+13:45:09.091|DEBUG|Resuming existing connection. 
+13:45:09.091|INFO|Executed endpoint '/relayhub' 
+13:45:09.091|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.091|INFO|Request finished in 26.0432ms 200 application/octet-stream 
+13:45:09.091|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.091|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.110|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.110|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.110|INFO|Authorization was successful. 
+13:45:09.110|INFO|Executing endpoint '/relayhub' 
+13:45:09.110|DEBUG|Resuming existing connection. 
+13:45:09.124|INFO|Executed endpoint '/relayhub' 
+13:45:09.124|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.124|INFO|Request finished in 22.3834ms 200 application/octet-stream 
+13:45:09.124|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.124|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.124|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.124|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.124|INFO|Authorization was successful. 
+13:45:09.139|INFO|Executing endpoint '/relayhub' 
+13:45:09.139|DEBUG|Resuming existing connection. 
+13:45:09.139|INFO|Executed endpoint '/relayhub' 
+13:45:09.139|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.139|INFO|Request finished in 16.5553ms 200 application/octet-stream 
+13:45:09.139|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.139|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.161|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.161|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.161|INFO|Authorization was successful. 
+13:45:09.161|INFO|Executing endpoint '/relayhub' 
+13:45:09.161|DEBUG|Resuming existing connection. 
+13:45:09.161|INFO|Executed endpoint '/relayhub' 
+13:45:09.170|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.170|INFO|Request finished in 22.1995ms 200 application/octet-stream 
+13:45:09.170|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.186|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.186|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.186|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.202|INFO|Authorization was successful. 
+13:45:09.202|INFO|Executing endpoint '/relayhub' 
+13:45:09.202|DEBUG|Resuming existing connection. 
+13:45:09.202|INFO|Executed endpoint '/relayhub' 
+13:45:09.202|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.224|INFO|Request finished in 46.8324ms 200 application/octet-stream 
+13:45:09.224|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.224|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.224|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.224|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.224|INFO|Authorization was successful. 
+13:45:09.235|INFO|Executing endpoint '/relayhub' 
+13:45:09.235|DEBUG|Resuming existing connection. 
+13:45:09.235|INFO|Executed endpoint '/relayhub' 
+13:45:09.235|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.235|INFO|Request finished in 17.4568ms 200 application/octet-stream 
+13:45:09.250|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.250|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.250|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.250|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.250|INFO|Authorization was successful. 
+13:45:09.250|INFO|Executing endpoint '/relayhub' 
+13:45:09.250|DEBUG|Resuming existing connection. 
+13:45:09.250|INFO|Executed endpoint '/relayhub' 
+13:45:09.265|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.265|INFO|Request finished in 18.0414ms 200 application/octet-stream 
+13:45:09.265|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.265|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.265|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.265|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.265|INFO|Authorization was successful. 
+13:45:09.265|INFO|Executing endpoint '/relayhub' 
+13:45:09.265|DEBUG|Resuming existing connection. 
+13:45:09.282|INFO|Executed endpoint '/relayhub' 
+13:45:09.282|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.282|INFO|Request finished in 14.6578ms 200 application/octet-stream 
+13:45:09.282|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.282|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.282|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.296|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.296|INFO|Authorization was successful. 
+13:45:09.296|INFO|Executing endpoint '/relayhub' 
+13:45:09.296|DEBUG|Resuming existing connection. 
+13:45:09.296|INFO|Executed endpoint '/relayhub' 
+13:45:09.296|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.296|INFO|Request finished in 18.2711ms 200 application/octet-stream 
+13:45:09.296|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.296|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.313|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.313|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.313|INFO|Authorization was successful. 
+13:45:09.313|INFO|Executing endpoint '/relayhub' 
+13:45:09.329|DEBUG|Resuming existing connection. 
+13:45:09.329|INFO|Executed endpoint '/relayhub' 
+13:45:09.329|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.329|INFO|Request finished in 28.4578ms 200 application/octet-stream 
+13:45:09.329|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.329|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.342|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.342|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.342|INFO|Authorization was successful. 
+13:45:09.342|INFO|Executing endpoint '/relayhub' 
+13:45:09.342|DEBUG|Resuming existing connection. 
+13:45:09.357|INFO|Executed endpoint '/relayhub' 
+13:45:09.357|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.357|INFO|Request finished in 25.0241ms 200 application/octet-stream 
+13:45:09.357|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.357|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.357|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.357|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.375|INFO|Authorization was successful. 
+13:45:09.375|INFO|Executing endpoint '/relayhub' 
+13:45:09.375|DEBUG|Resuming existing connection. 
+13:45:09.399|INFO|Executed endpoint '/relayhub' 
+13:45:09.405|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.405|INFO|Request finished in 40.9021ms 200 application/octet-stream 
+13:45:09.405|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.405|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.420|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.420|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.420|INFO|Authorization was successful. 
+13:45:09.420|INFO|Executing endpoint '/relayhub' 
+13:45:09.439|DEBUG|Resuming existing connection. 
+13:45:09.439|INFO|Executed endpoint '/relayhub' 
+13:45:09.439|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.439|INFO|Request finished in 38.4029ms 200 application/octet-stream 
+13:45:09.453|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.453|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.453|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.453|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.453|INFO|Authorization was successful. 
+13:45:09.453|INFO|Executing endpoint '/relayhub' 
+13:45:09.453|DEBUG|Resuming existing connection. 
+13:45:09.453|INFO|Executed endpoint '/relayhub' 
+13:45:09.467|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.467|INFO|Request finished in 15.0581ms 200 application/octet-stream 
+13:45:09.467|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.467|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.467|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.467|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.467|INFO|Authorization was successful. 
+13:45:09.467|INFO|Executing endpoint '/relayhub' 
+13:45:09.467|DEBUG|Resuming existing connection. 
+13:45:09.486|INFO|Executed endpoint '/relayhub' 
+13:45:09.486|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.486|INFO|Request finished in 17.8579ms 200 application/octet-stream 
+13:45:09.486|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.486|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.486|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.499|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.499|INFO|Authorization was successful. 
+13:45:09.499|INFO|Executing endpoint '/relayhub' 
+13:45:09.499|DEBUG|Resuming existing connection. 
+13:45:09.499|INFO|Executed endpoint '/relayhub' 
+13:45:09.499|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.499|INFO|Request finished in 17.37ms 200 application/octet-stream 
+13:45:09.499|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.515|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.515|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.515|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.515|INFO|Authorization was successful. 
+13:45:09.515|INFO|Executing endpoint '/relayhub' 
+13:45:09.515|DEBUG|Resuming existing connection. 
+13:45:09.531|INFO|Executed endpoint '/relayhub' 
+13:45:09.531|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.531|INFO|Request finished in 27.3891ms 200 application/octet-stream 
+13:45:09.531|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.546|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.546|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.546|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.546|INFO|Authorization was successful. 
+13:45:09.546|INFO|Executing endpoint '/relayhub' 
+13:45:09.546|DEBUG|Resuming existing connection. 
+13:45:09.564|INFO|Executed endpoint '/relayhub' 
+13:45:09.564|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.564|INFO|Request finished in 28.7999ms 200 application/octet-stream 
+13:45:09.564|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.578|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.578|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.578|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.593|INFO|Authorization was successful. 
+13:45:09.593|INFO|Executing endpoint '/relayhub' 
+13:45:09.593|DEBUG|Resuming existing connection. 
+13:45:09.593|INFO|Executed endpoint '/relayhub' 
+13:45:09.607|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.607|INFO|Request finished in 35.7514ms 200 application/octet-stream 
+13:45:09.607|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.607|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.607|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.623|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.623|INFO|Authorization was successful. 
+13:45:09.623|INFO|Executing endpoint '/relayhub' 
+13:45:09.623|DEBUG|Resuming existing connection. 
+13:45:09.623|INFO|Executed endpoint '/relayhub' 
+13:45:09.623|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.638|INFO|Request finished in 25.338ms 200 application/octet-stream 
+13:45:09.638|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.638|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.638|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.638|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.638|INFO|Authorization was successful. 
+13:45:09.655|INFO|Executing endpoint '/relayhub' 
+13:45:09.655|DEBUG|Resuming existing connection. 
+13:45:09.655|INFO|Executed endpoint '/relayhub' 
+13:45:09.655|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.655|INFO|Request finished in 25.2872ms 200 application/octet-stream 
+13:45:09.655|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.655|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.671|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.671|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.671|INFO|Authorization was successful. 
+13:45:09.671|INFO|Executing endpoint '/relayhub' 
+13:45:09.671|DEBUG|Resuming existing connection. 
+13:45:09.671|INFO|Executed endpoint '/relayhub' 
+13:45:09.686|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.686|INFO|Request finished in 21.7872ms 200 application/octet-stream 
+13:45:09.686|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.686|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.686|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.686|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.686|INFO|Authorization was successful. 
+13:45:09.686|INFO|Executing endpoint '/relayhub' 
+13:45:09.702|DEBUG|Resuming existing connection. 
+13:45:09.702|INFO|Executed endpoint '/relayhub' 
+13:45:09.702|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.702|INFO|Request finished in 20.4204ms 200 application/octet-stream 
+13:45:09.702|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.702|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.718|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.718|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.718|INFO|Authorization was successful. 
+13:45:09.718|INFO|Executing endpoint '/relayhub' 
+13:45:09.718|DEBUG|Resuming existing connection. 
+13:45:09.718|INFO|Executed endpoint '/relayhub' 
+13:45:09.718|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.733|INFO|Request finished in 20.1716ms 200 application/octet-stream 
+13:45:09.733|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.733|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.733|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.733|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.733|INFO|Authorization was successful. 
+13:45:09.748|INFO|Executing endpoint '/relayhub' 
+13:45:09.748|DEBUG|Resuming existing connection. 
+13:45:09.748|INFO|Executed endpoint '/relayhub' 
+13:45:09.748|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.748|INFO|Request finished in 23.4222ms 200 application/octet-stream 
+13:45:09.748|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.764|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.764|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.764|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.764|INFO|Authorization was successful. 
+13:45:09.764|INFO|Executing endpoint '/relayhub' 
+13:45:09.764|DEBUG|Resuming existing connection. 
+13:45:09.764|INFO|Executed endpoint '/relayhub' 
+13:45:09.764|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.764|INFO|Request finished in 16.4574ms 200 application/octet-stream 
+13:45:09.780|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.780|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.780|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.780|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.780|INFO|Authorization was successful. 
+13:45:09.795|INFO|Executing endpoint '/relayhub' 
+13:45:09.795|DEBUG|Resuming existing connection. 
+13:45:09.795|INFO|Executed endpoint '/relayhub' 
+13:45:09.795|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.814|INFO|Request finished in 33.821ms 200 application/octet-stream 
+13:45:09.814|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.814|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.814|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.814|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.827|INFO|Authorization was successful. 
+13:45:09.827|INFO|Executing endpoint '/relayhub' 
+13:45:09.827|DEBUG|Resuming existing connection. 
+13:45:09.827|INFO|Executed endpoint '/relayhub' 
+13:45:09.827|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.827|INFO|Request finished in 22.2003ms 200 application/octet-stream 
+13:45:09.827|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.844|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.844|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.844|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.844|INFO|Authorization was successful. 
+13:45:09.857|INFO|Executing endpoint '/relayhub' 
+13:45:09.857|DEBUG|Resuming existing connection. 
+13:45:09.857|INFO|Executed endpoint '/relayhub' 
+13:45:09.857|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.857|INFO|Request finished in 24.3852ms 200 application/octet-stream 
+13:45:09.857|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.857|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.873|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.873|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.873|INFO|Authorization was successful. 
+13:45:09.873|INFO|Executing endpoint '/relayhub' 
+13:45:09.873|DEBUG|Resuming existing connection. 
+13:45:09.888|INFO|Executed endpoint '/relayhub' 
+13:45:09.888|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.888|INFO|Request finished in 28.5831ms 200 application/octet-stream 
+13:45:09.888|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.888|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.888|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.888|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.888|INFO|Authorization was successful. 
+13:45:09.906|INFO|Executing endpoint '/relayhub' 
+13:45:09.906|DEBUG|Resuming existing connection. 
+13:45:09.906|INFO|Executed endpoint '/relayhub' 
+13:45:09.906|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.906|INFO|Request finished in 16.894ms 200 application/octet-stream 
+13:45:09.906|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.906|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.906|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.922|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.922|INFO|Authorization was successful. 
+13:45:09.922|INFO|Executing endpoint '/relayhub' 
+13:45:09.922|DEBUG|Resuming existing connection. 
+13:45:09.922|INFO|Executed endpoint '/relayhub' 
+13:45:09.922|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.935|INFO|Request finished in 18.8279ms 200 application/octet-stream 
+13:45:09.935|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.935|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.935|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.935|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.935|INFO|Authorization was successful. 
+13:45:09.935|INFO|Executing endpoint '/relayhub' 
+13:45:09.935|DEBUG|Resuming existing connection. 
+13:45:09.956|INFO|Executed endpoint '/relayhub' 
+13:45:09.956|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.956|INFO|Request finished in 22.9804ms 200 application/octet-stream 
+13:45:09.956|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.956|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.956|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.968|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.968|INFO|Authorization was successful. 
+13:45:09.968|INFO|Executing endpoint '/relayhub' 
+13:45:09.968|DEBUG|Resuming existing connection. 
+13:45:09.968|INFO|Executed endpoint '/relayhub' 
+13:45:09.968|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:09.968|INFO|Request finished in 18.7038ms 200 application/octet-stream 
+13:45:09.968|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:09.983|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:09.983|DEBUG|Request matched endpoint '/relayhub' 
+13:45:09.983|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:09.983|INFO|Authorization was successful. 
+13:45:09.983|INFO|Executing endpoint '/relayhub' 
+13:45:09.983|DEBUG|Resuming existing connection. 
+13:45:10.002|INFO|Executed endpoint '/relayhub' 
+13:45:10.002|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.002|INFO|Request finished in 24.8176ms 200 application/octet-stream 
+13:45:10.002|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.002|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.021|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.021|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.040|INFO|Authorization was successful. 
+13:45:10.052|INFO|Executing endpoint '/relayhub' 
+13:45:10.062|DEBUG|Resuming existing connection. 
+13:45:10.062|INFO|Executed endpoint '/relayhub' 
+13:45:10.062|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.062|INFO|Request finished in 63.0063ms 200 application/octet-stream 
+13:45:10.062|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.076|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.092|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.092|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.092|INFO|Authorization was successful. 
+13:45:10.092|INFO|Executing endpoint '/relayhub' 
+13:45:10.108|DEBUG|Resuming existing connection. 
+13:45:10.108|INFO|Executed endpoint '/relayhub' 
+13:45:10.108|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.108|INFO|Request finished in 39.8813ms 200 application/octet-stream 
+13:45:10.108|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.108|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.108|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.108|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.124|INFO|Authorization was successful. 
+13:45:10.124|INFO|Executing endpoint '/relayhub' 
+13:45:10.124|DEBUG|Resuming existing connection. 
+13:45:10.124|INFO|Executed endpoint '/relayhub' 
+13:45:10.124|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.124|INFO|Request finished in 16.4172ms 200 application/octet-stream 
+13:45:10.124|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.124|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.139|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.139|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.139|INFO|Authorization was successful. 
+13:45:10.139|INFO|Executing endpoint '/relayhub' 
+13:45:10.139|DEBUG|Resuming existing connection. 
+13:45:10.139|INFO|Executed endpoint '/relayhub' 
+13:45:10.139|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.139|INFO|Request finished in 16.3269ms 200 application/octet-stream 
+13:45:10.154|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.154|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.154|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.154|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.154|INFO|Authorization was successful. 
+13:45:10.175|INFO|Executing endpoint '/relayhub' 
+13:45:10.175|DEBUG|Resuming existing connection. 
+13:45:10.175|INFO|Executed endpoint '/relayhub' 
+13:45:10.175|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.175|INFO|Request finished in 26.2173ms 200 application/octet-stream 
+13:45:10.175|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.175|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.186|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.186|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.186|INFO|Authorization was successful. 
+13:45:10.186|INFO|Executing endpoint '/relayhub' 
+13:45:10.186|DEBUG|Resuming existing connection. 
+13:45:10.186|INFO|Executed endpoint '/relayhub' 
+13:45:10.186|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.186|INFO|Request finished in 15.384ms 200 application/octet-stream 
+13:45:10.201|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.201|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.201|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.201|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.201|INFO|Authorization was successful. 
+13:45:10.201|INFO|Executing endpoint '/relayhub' 
+13:45:10.201|DEBUG|Resuming existing connection. 
+13:45:10.201|INFO|Executed endpoint '/relayhub' 
+13:45:10.220|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.220|INFO|Request finished in 24.5208ms 200 application/octet-stream 
+13:45:10.220|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.220|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.220|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.232|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.232|INFO|Authorization was successful. 
+13:45:10.232|INFO|Executing endpoint '/relayhub' 
+13:45:10.232|DEBUG|Resuming existing connection. 
+13:45:10.232|INFO|Executed endpoint '/relayhub' 
+13:45:10.232|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.232|INFO|Request finished in 18.0016ms 200 application/octet-stream 
+13:45:10.232|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.232|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.249|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.249|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.249|INFO|Authorization was successful. 
+13:45:10.249|INFO|Executing endpoint '/relayhub' 
+13:45:10.249|DEBUG|Resuming existing connection. 
+13:45:10.249|INFO|Executed endpoint '/relayhub' 
+13:45:10.249|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.267|INFO|Request finished in 20.5154ms 200 application/octet-stream 
+13:45:10.267|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.267|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.267|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.267|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.279|INFO|Authorization was successful. 
+13:45:10.279|INFO|Executing endpoint '/relayhub' 
+13:45:10.279|DEBUG|Resuming existing connection. 
+13:45:10.279|INFO|Executed endpoint '/relayhub' 
+13:45:10.279|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.279|INFO|Request finished in 23.1814ms 200 application/octet-stream 
+13:45:10.295|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.295|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.295|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.295|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.295|INFO|Authorization was successful. 
+13:45:10.295|INFO|Executing endpoint '/relayhub' 
+13:45:10.295|DEBUG|Resuming existing connection. 
+13:45:10.295|INFO|Executed endpoint '/relayhub' 
+13:45:10.311|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.311|INFO|Request finished in 19.7251ms 200 application/octet-stream 
+13:45:10.311|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.311|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.311|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.311|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.311|INFO|Authorization was successful. 
+13:45:10.311|INFO|Executing endpoint '/relayhub' 
+13:45:10.327|DEBUG|Resuming existing connection. 
+13:45:10.327|INFO|Executed endpoint '/relayhub' 
+13:45:10.327|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.327|INFO|Request finished in 16.8504ms 200 application/octet-stream 
+13:45:10.327|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.327|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.327|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.327|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.327|INFO|Authorization was successful. 
+13:45:10.343|INFO|Executing endpoint '/relayhub' 
+13:45:10.343|DEBUG|Resuming existing connection. 
+13:45:10.343|INFO|Executed endpoint '/relayhub' 
+13:45:10.343|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.343|INFO|Request finished in 16.4065ms 200 application/octet-stream 
+13:45:10.343|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.343|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.358|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.358|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.358|INFO|Authorization was successful. 
+13:45:10.358|INFO|Executing endpoint '/relayhub' 
+13:45:10.358|DEBUG|Resuming existing connection. 
+13:45:10.358|INFO|Executed endpoint '/relayhub' 
+13:45:10.358|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.358|INFO|Request finished in 16.9526ms 200 application/octet-stream 
+13:45:10.373|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.373|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.373|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.373|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.373|INFO|Authorization was successful. 
+13:45:10.373|INFO|Executing endpoint '/relayhub' 
+13:45:10.373|DEBUG|Resuming existing connection. 
+13:45:10.373|INFO|Executed endpoint '/relayhub' 
+13:45:10.391|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.391|INFO|Request finished in 22.9107ms 200 application/octet-stream 
+13:45:10.391|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.391|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.391|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.391|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.404|INFO|Authorization was successful. 
+13:45:10.404|INFO|Executing endpoint '/relayhub' 
+13:45:10.404|DEBUG|Resuming existing connection. 
+13:45:10.404|INFO|Executed endpoint '/relayhub' 
+13:45:10.404|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.404|INFO|Request finished in 17.9512ms 200 application/octet-stream 
+13:45:10.404|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.404|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.404|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.420|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.420|INFO|Authorization was successful. 
+13:45:10.420|INFO|Executing endpoint '/relayhub' 
+13:45:10.420|DEBUG|Resuming existing connection. 
+13:45:10.420|INFO|Executed endpoint '/relayhub' 
+13:45:10.420|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.441|INFO|Request finished in 24.0991ms 200 application/octet-stream 
+13:45:10.441|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.441|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.441|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.451|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.451|INFO|Authorization was successful. 
+13:45:10.451|INFO|Executing endpoint '/relayhub' 
+13:45:10.451|DEBUG|Resuming existing connection. 
+13:45:10.451|INFO|Executed endpoint '/relayhub' 
+13:45:10.451|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.467|INFO|Request finished in 21.3412ms 200 application/octet-stream 
+13:45:10.467|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.467|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.467|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.467|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.467|INFO|Authorization was successful. 
+13:45:10.467|INFO|Executing endpoint '/relayhub' 
+13:45:10.467|DEBUG|Resuming existing connection. 
+13:45:10.483|INFO|Executed endpoint '/relayhub' 
+13:45:10.483|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.483|INFO|Request finished in 16.9428ms 200 application/octet-stream 
+13:45:10.483|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.483|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.483|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.498|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.498|INFO|Authorization was successful. 
+13:45:10.498|INFO|Executing endpoint '/relayhub' 
+13:45:10.498|DEBUG|Resuming existing connection. 
+13:45:10.498|INFO|Executed endpoint '/relayhub' 
+13:45:10.498|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.498|INFO|Request finished in 24.0393ms 200 application/octet-stream 
+13:45:10.498|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.498|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.518|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.518|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.518|INFO|Authorization was successful. 
+13:45:10.518|INFO|Executing endpoint '/relayhub' 
+13:45:10.518|DEBUG|Resuming existing connection. 
+13:45:10.531|INFO|Executed endpoint '/relayhub' 
+13:45:10.531|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.531|INFO|Request finished in 25.5839ms 200 application/octet-stream 
+13:45:10.545|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.545|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.545|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.545|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.545|INFO|Authorization was successful. 
+13:45:10.545|INFO|Executing endpoint '/relayhub' 
+13:45:10.565|DEBUG|Resuming existing connection. 
+13:45:10.565|INFO|Executed endpoint '/relayhub' 
+13:45:10.583|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.583|INFO|Request finished in 41.7852ms 200 application/octet-stream 
+13:45:10.583|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.583|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.583|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.583|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.592|INFO|Authorization was successful. 
+13:45:10.592|INFO|Executing endpoint '/relayhub' 
+13:45:10.592|DEBUG|Resuming existing connection. 
+13:45:10.592|INFO|Executed endpoint '/relayhub' 
+13:45:10.592|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.592|INFO|Request finished in 14.9798ms 200 application/octet-stream 
+13:45:10.592|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.592|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.592|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.611|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.611|INFO|Authorization was successful. 
+13:45:10.611|INFO|Executing endpoint '/relayhub' 
+13:45:10.611|DEBUG|Resuming existing connection. 
+13:45:10.623|INFO|Executed endpoint '/relayhub' 
+13:45:10.623|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.623|INFO|Request finished in 21.3527ms 200 application/octet-stream 
+13:45:10.623|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.623|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.623|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.642|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.642|INFO|Authorization was successful. 
+13:45:10.642|INFO|Executing endpoint '/relayhub' 
+13:45:10.642|DEBUG|Resuming existing connection. 
+13:45:10.642|INFO|Executed endpoint '/relayhub' 
+13:45:10.642|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.654|INFO|Request finished in 27.7ms 200 application/octet-stream 
+13:45:10.654|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.654|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.669|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.669|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.669|INFO|Authorization was successful. 
+13:45:10.669|INFO|Executing endpoint '/relayhub' 
+13:45:10.669|DEBUG|Resuming existing connection. 
+13:45:10.669|INFO|Executed endpoint '/relayhub' 
+13:45:10.669|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.669|INFO|Request finished in 23.7831ms 200 application/octet-stream 
+13:45:10.669|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.688|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.688|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.688|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.688|INFO|Authorization was successful. 
+13:45:10.688|INFO|Executing endpoint '/relayhub' 
+13:45:10.688|DEBUG|Resuming existing connection. 
+13:45:10.688|INFO|Executed endpoint '/relayhub' 
+13:45:10.701|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.701|INFO|Request finished in 19.5775ms 200 application/octet-stream 
+13:45:10.701|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.701|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.701|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.701|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.701|INFO|Authorization was successful. 
+13:45:10.701|INFO|Executing endpoint '/relayhub' 
+13:45:10.701|DEBUG|Resuming existing connection. 
+13:45:10.701|INFO|Executed endpoint '/relayhub' 
+13:45:10.717|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.717|INFO|Request finished in 14.8656ms 200 application/octet-stream 
+13:45:10.717|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.717|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.717|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.717|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.717|INFO|Authorization was successful. 
+13:45:10.717|INFO|Executing endpoint '/relayhub' 
+13:45:10.717|DEBUG|Resuming existing connection. 
+13:45:10.717|INFO|Executed endpoint '/relayhub' 
+13:45:10.735|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.735|INFO|Request finished in 13.5651ms 200 application/octet-stream 
+13:45:10.735|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.735|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.735|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.735|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.735|INFO|Authorization was successful. 
+13:45:10.735|INFO|Executing endpoint '/relayhub' 
+13:45:10.748|DEBUG|Resuming existing connection. 
+13:45:10.748|INFO|Executed endpoint '/relayhub' 
+13:45:10.748|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.748|INFO|Request finished in 16.1764ms 200 application/octet-stream 
+13:45:10.748|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.748|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.748|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.748|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.748|INFO|Authorization was successful. 
+13:45:10.763|INFO|Executing endpoint '/relayhub' 
+13:45:10.763|DEBUG|Resuming existing connection. 
+13:45:10.763|INFO|Executed endpoint '/relayhub' 
+13:45:10.763|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.763|INFO|Request finished in 15.6932ms 200 application/octet-stream 
+13:45:10.763|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.763|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.763|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.763|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.763|INFO|Authorization was successful. 
+13:45:10.784|INFO|Executing endpoint '/relayhub' 
+13:45:10.784|DEBUG|Resuming existing connection. 
+13:45:10.784|INFO|Executed endpoint '/relayhub' 
+13:45:10.784|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.784|INFO|Request finished in 14.8319ms 200 application/octet-stream 
+13:45:10.784|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.784|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.795|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.795|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.795|INFO|Authorization was successful. 
+13:45:10.795|INFO|Executing endpoint '/relayhub' 
+13:45:10.795|DEBUG|Resuming existing connection. 
+13:45:10.795|INFO|Executed endpoint '/relayhub' 
+13:45:10.795|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.795|INFO|Request finished in 17.293ms 200 application/octet-stream 
+13:45:10.795|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.795|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.811|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.811|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.811|INFO|Authorization was successful. 
+13:45:10.811|INFO|Executing endpoint '/relayhub' 
+13:45:10.811|DEBUG|Resuming existing connection. 
+13:45:10.811|INFO|Executed endpoint '/relayhub' 
+13:45:10.811|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.811|INFO|Request finished in 16.3252ms 200 application/octet-stream 
+13:45:10.827|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.827|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.827|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.842|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.842|INFO|Authorization was successful. 
+13:45:10.842|INFO|Executing endpoint '/relayhub' 
+13:45:10.842|DEBUG|Resuming existing connection. 
+13:45:10.842|INFO|Executed endpoint '/relayhub' 
+13:45:10.858|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.858|INFO|Request finished in 32.009ms 200 application/octet-stream 
+13:45:10.858|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.858|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.858|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.858|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.858|INFO|Authorization was successful. 
+13:45:10.858|INFO|Executing endpoint '/relayhub' 
+13:45:10.874|DEBUG|Resuming existing connection. 
+13:45:10.874|INFO|Executed endpoint '/relayhub' 
+13:45:10.874|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.874|INFO|Request finished in 24.2997ms 200 application/octet-stream 
+13:45:10.874|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.888|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.888|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.888|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.888|INFO|Authorization was successful. 
+13:45:10.888|INFO|Executing endpoint '/relayhub' 
+13:45:10.888|DEBUG|Resuming existing connection. 
+13:45:10.888|INFO|Executed endpoint '/relayhub' 
+13:45:10.888|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.905|INFO|Request finished in 18.026ms 200 application/octet-stream 
+13:45:10.905|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.905|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.905|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.905|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.905|INFO|Authorization was successful. 
+13:45:10.905|INFO|Executing endpoint '/relayhub' 
+13:45:10.905|DEBUG|Resuming existing connection. 
+13:45:10.905|INFO|Executed endpoint '/relayhub' 
+13:45:10.920|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.920|INFO|Request finished in 16.0622ms 200 application/octet-stream 
+13:45:10.920|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.920|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.920|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.940|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.940|INFO|Authorization was successful. 
+13:45:10.940|INFO|Executing endpoint '/relayhub' 
+13:45:10.954|DEBUG|Resuming existing connection. 
+13:45:10.954|INFO|Executed endpoint '/relayhub' 
+13:45:10.954|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.954|INFO|Request finished in 38.5089ms 200 application/octet-stream 
+13:45:10.971|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.971|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.971|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.971|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:10.971|INFO|Authorization was successful. 
+13:45:10.983|INFO|Executing endpoint '/relayhub' 
+13:45:10.983|DEBUG|Resuming existing connection. 
+13:45:10.983|INFO|Executed endpoint '/relayhub' 
+13:45:10.983|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:10.983|INFO|Request finished in 20.9623ms 200 application/octet-stream 
+13:45:10.983|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:10.983|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:10.983|DEBUG|Request matched endpoint '/relayhub' 
+13:45:10.983|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.000|INFO|Authorization was successful. 
+13:45:11.000|INFO|Executing endpoint '/relayhub' 
+13:45:11.000|DEBUG|Resuming existing connection. 
+13:45:11.000|INFO|Executed endpoint '/relayhub' 
+13:45:11.000|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.000|INFO|Request finished in 14.5423ms 200 application/octet-stream 
+13:45:11.000|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.000|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.013|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.013|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.013|INFO|Authorization was successful. 
+13:45:11.013|INFO|Executing endpoint '/relayhub' 
+13:45:11.013|DEBUG|Resuming existing connection. 
+13:45:11.013|INFO|Executed endpoint '/relayhub' 
+13:45:11.013|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.013|INFO|Request finished in 14.1078ms 200 application/octet-stream 
+13:45:11.013|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.013|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.032|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.032|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.044|INFO|Authorization was successful. 
+13:45:11.044|INFO|Executing endpoint '/relayhub' 
+13:45:11.064|DEBUG|Resuming existing connection. 
+13:45:11.064|INFO|Executed endpoint '/relayhub' 
+13:45:11.082|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.082|INFO|Request finished in 56.8968ms 200 application/octet-stream 
+13:45:11.082|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.082|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.082|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.092|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.092|INFO|Authorization was successful. 
+13:45:11.092|INFO|Executing endpoint '/relayhub' 
+13:45:11.092|DEBUG|Resuming existing connection. 
+13:45:11.108|INFO|Executed endpoint '/relayhub' 
+13:45:11.108|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.108|INFO|Request finished in 25.9154ms 200 application/octet-stream 
+13:45:11.108|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.108|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.108|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.108|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.124|INFO|Authorization was successful. 
+13:45:11.124|INFO|Executing endpoint '/relayhub' 
+13:45:11.124|DEBUG|Resuming existing connection. 
+13:45:11.124|INFO|Executed endpoint '/relayhub' 
+13:45:11.143|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.143|INFO|Request finished in 32.24ms 200 application/octet-stream 
+13:45:11.143|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.143|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.143|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.143|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.155|INFO|Authorization was successful. 
+13:45:11.155|INFO|Executing endpoint '/relayhub' 
+13:45:11.155|DEBUG|Resuming existing connection. 
+13:45:11.155|INFO|Executed endpoint '/relayhub' 
+13:45:11.155|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.155|INFO|Request finished in 19.8393ms 200 application/octet-stream 
+13:45:11.155|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.170|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.170|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.170|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.170|INFO|Authorization was successful. 
+13:45:11.170|INFO|Executing endpoint '/relayhub' 
+13:45:11.170|DEBUG|Resuming existing connection. 
+13:45:11.170|INFO|Executed endpoint '/relayhub' 
+13:45:11.170|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.188|INFO|Request finished in 19.9919ms 200 application/octet-stream 
+13:45:11.188|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.188|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.188|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.188|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.204|INFO|Authorization was successful. 
+13:45:11.204|INFO|Executing endpoint '/relayhub' 
+13:45:11.204|DEBUG|Resuming existing connection. 
+13:45:11.204|INFO|Executed endpoint '/relayhub' 
+13:45:11.204|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.204|INFO|Request finished in 24.6884ms 200 application/octet-stream 
+13:45:11.204|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.218|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.218|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.218|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.218|INFO|Authorization was successful. 
+13:45:11.218|INFO|Executing endpoint '/relayhub' 
+13:45:11.218|DEBUG|Resuming existing connection. 
+13:45:11.233|INFO|Executed endpoint '/relayhub' 
+13:45:11.233|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.233|INFO|Request finished in 23.213ms 200 application/octet-stream 
+13:45:11.233|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.233|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.233|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.249|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.249|INFO|Authorization was successful. 
+13:45:11.321|INFO|Executing endpoint '/relayhub' 
+13:45:11.331|DEBUG|Resuming existing connection. 
+13:45:11.331|INFO|Executed endpoint '/relayhub' 
+13:45:11.331|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.345|INFO|Request finished in 104.0923ms 200 application/octet-stream 
+13:45:11.345|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.345|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.345|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.403|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.439|INFO|Authorization was successful. 
+13:45:11.439|INFO|Executing endpoint '/relayhub' 
+13:45:11.439|DEBUG|Resuming existing connection. 
+13:45:11.439|INFO|Executed endpoint '/relayhub' 
+13:45:11.451|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.451|INFO|Request finished in 102.8448ms 200 application/octet-stream 
+13:45:11.451|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.451|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.451|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.467|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.467|INFO|Authorization was successful. 
+13:45:11.535|INFO|Executing endpoint '/relayhub' 
+13:45:11.535|DEBUG|Resuming existing connection. 
+13:45:11.555|INFO|Executed endpoint '/relayhub' 
+13:45:11.574|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.590|INFO|Request finished in 134.8163ms 200 application/octet-stream 
+13:45:11.617|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.637|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.653|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.665|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.672|INFO|Authorization was successful. 
+13:45:11.672|INFO|Executing endpoint '/relayhub' 
+13:45:11.693|DEBUG|Resuming existing connection. 
+13:45:11.701|INFO|Executed endpoint '/relayhub' 
+13:45:11.701|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.701|INFO|Request finished in 98.4178ms 200 application/octet-stream 
+13:45:11.719|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.735|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.735|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.756|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.756|INFO|Authorization was successful. 
+13:45:11.766|INFO|Executing endpoint '/relayhub' 
+13:45:11.766|DEBUG|Resuming existing connection. 
+13:45:11.766|INFO|Executed endpoint '/relayhub' 
+13:45:11.766|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.780|INFO|Request finished in 61.6921ms 200 application/octet-stream 
+13:45:11.780|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.780|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.780|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.796|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.796|INFO|Authorization was successful. 
+13:45:11.796|INFO|Executing endpoint '/relayhub' 
+13:45:11.796|DEBUG|Resuming existing connection. 
+13:45:11.796|INFO|Executed endpoint '/relayhub' 
+13:45:11.796|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.796|INFO|Request finished in 25.9068ms 200 application/octet-stream 
+13:45:11.811|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.811|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.811|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.811|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.811|INFO|Authorization was successful. 
+13:45:11.826|INFO|Executing endpoint '/relayhub' 
+13:45:11.826|DEBUG|Resuming existing connection. 
+13:45:11.826|INFO|Executed endpoint '/relayhub' 
+13:45:11.826|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.826|INFO|Request finished in 28.5356ms 200 application/octet-stream 
+13:45:11.845|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.845|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.859|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.859|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.859|INFO|Authorization was successful. 
+13:45:11.859|INFO|Executing endpoint '/relayhub' 
+13:45:11.859|DEBUG|Resuming existing connection. 
+13:45:11.859|INFO|Executed endpoint '/relayhub' 
+13:45:11.874|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.874|INFO|Request finished in 35.0569ms 200 application/octet-stream 
+13:45:11.874|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.890|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.890|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.890|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.890|INFO|Authorization was successful. 
+13:45:11.905|INFO|Executing endpoint '/relayhub' 
+13:45:11.905|DEBUG|Resuming existing connection. 
+13:45:11.905|INFO|Executed endpoint '/relayhub' 
+13:45:11.905|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.905|INFO|Request finished in 29.4765ms 200 application/octet-stream 
+13:45:11.926|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.926|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.926|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.926|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.926|INFO|Authorization was successful. 
+13:45:11.926|INFO|Executing endpoint '/relayhub' 
+13:45:11.937|DEBUG|Resuming existing connection. 
+13:45:11.937|INFO|Executed endpoint '/relayhub' 
+13:45:11.937|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.937|INFO|Request finished in 18.0833ms 200 application/octet-stream 
+13:45:11.937|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.937|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.951|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.951|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.951|INFO|Authorization was successful. 
+13:45:11.951|INFO|Executing endpoint '/relayhub' 
+13:45:11.951|DEBUG|Resuming existing connection. 
+13:45:11.951|INFO|Executed endpoint '/relayhub' 
+13:45:11.951|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.967|INFO|Request finished in 18.9288ms 200 application/octet-stream 
+13:45:11.967|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.967|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.967|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.967|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.967|INFO|Authorization was successful. 
+13:45:11.967|INFO|Executing endpoint '/relayhub' 
+13:45:11.983|DEBUG|Resuming existing connection. 
+13:45:11.983|INFO|Executed endpoint '/relayhub' 
+13:45:11.983|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.983|INFO|Request finished in 22.3872ms 200 application/octet-stream 
+13:45:11.983|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:11.983|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:11.983|DEBUG|Request matched endpoint '/relayhub' 
+13:45:11.983|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:11.998|INFO|Authorization was successful. 
+13:45:11.998|INFO|Executing endpoint '/relayhub' 
+13:45:11.998|DEBUG|Resuming existing connection. 
+13:45:11.998|INFO|Executed endpoint '/relayhub' 
+13:45:11.998|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:11.998|INFO|Request finished in 17.7865ms 200 application/octet-stream 
+13:45:12.014|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.014|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.014|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.014|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.014|INFO|Authorization was successful. 
+13:45:12.014|INFO|Executing endpoint '/relayhub' 
+13:45:12.014|DEBUG|Resuming existing connection. 
+13:45:12.014|INFO|Executed endpoint '/relayhub' 
+13:45:12.030|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.030|INFO|Request finished in 19.551ms 200 application/octet-stream 
+13:45:12.030|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.030|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.030|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.030|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.050|INFO|Authorization was successful. 
+13:45:12.050|INFO|Executing endpoint '/relayhub' 
+13:45:12.050|DEBUG|Resuming existing connection. 
+13:45:12.050|INFO|Executed endpoint '/relayhub' 
+13:45:12.050|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.050|INFO|Request finished in 22.2269ms 200 application/octet-stream 
+13:45:12.061|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.061|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.061|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.061|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.061|INFO|Authorization was successful. 
+13:45:12.076|INFO|Executing endpoint '/relayhub' 
+13:45:12.076|DEBUG|Resuming existing connection. 
+13:45:12.076|INFO|Executed endpoint '/relayhub' 
+13:45:12.092|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.092|INFO|Request finished in 36.8484ms 200 application/octet-stream 
+13:45:12.092|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.092|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.116|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.124|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.124|INFO|Authorization was successful. 
+13:45:12.124|INFO|Executing endpoint '/relayhub' 
+13:45:12.124|DEBUG|Resuming existing connection. 
+13:45:12.124|INFO|Executed endpoint '/relayhub' 
+13:45:12.140|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.140|INFO|Request finished in 37.2461ms 200 application/octet-stream 
+13:45:12.140|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.160|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.160|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.160|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.160|INFO|Authorization was successful. 
+13:45:12.160|INFO|Executing endpoint '/relayhub' 
+13:45:12.171|DEBUG|Resuming existing connection. 
+13:45:12.171|INFO|Executed endpoint '/relayhub' 
+13:45:12.171|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.171|INFO|Request finished in 31.3598ms 200 application/octet-stream 
+13:45:12.171|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.171|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.171|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.187|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.187|INFO|Authorization was successful. 
+13:45:12.187|INFO|Executing endpoint '/relayhub' 
+13:45:12.187|DEBUG|Resuming existing connection. 
+13:45:12.187|INFO|Executed endpoint '/relayhub' 
+13:45:12.206|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.206|INFO|Request finished in 25.5322ms 200 application/octet-stream 
+13:45:12.206|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.206|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.206|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.206|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.219|INFO|Authorization was successful. 
+13:45:12.219|INFO|Executing endpoint '/relayhub' 
+13:45:12.219|DEBUG|Resuming existing connection. 
+13:45:12.219|INFO|Executed endpoint '/relayhub' 
+13:45:12.219|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.219|INFO|Request finished in 23.0458ms 200 application/octet-stream 
+13:45:12.233|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.233|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.233|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.233|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.233|INFO|Authorization was successful. 
+13:45:12.233|INFO|Executing endpoint '/relayhub' 
+13:45:12.233|DEBUG|Resuming existing connection. 
+13:45:12.248|INFO|Executed endpoint '/relayhub' 
+13:45:12.248|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.248|INFO|Request finished in 27.5815ms 200 application/octet-stream 
+13:45:12.264|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.264|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.264|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.264|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.264|INFO|Authorization was successful. 
+13:45:12.279|INFO|Executing endpoint '/relayhub' 
+13:45:12.279|DEBUG|Resuming existing connection. 
+13:45:12.279|INFO|Executed endpoint '/relayhub' 
+13:45:12.279|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.279|INFO|Request finished in 28.5561ms 200 application/octet-stream 
+13:45:12.279|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.295|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.295|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.295|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.295|INFO|Authorization was successful. 
+13:45:12.295|INFO|Executing endpoint '/relayhub' 
+13:45:12.315|DEBUG|Resuming existing connection. 
+13:45:12.315|INFO|Executed endpoint '/relayhub' 
+13:45:12.315|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.315|INFO|Request finished in 29.0099ms 200 application/octet-stream 
+13:45:12.315|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.315|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.327|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.327|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.327|INFO|Authorization was successful. 
+13:45:12.327|INFO|Executing endpoint '/relayhub' 
+13:45:12.327|DEBUG|Resuming existing connection. 
+13:45:12.342|INFO|Executed endpoint '/relayhub' 
+13:45:12.342|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.342|INFO|Request finished in 27.9643ms 200 application/octet-stream 
+13:45:12.342|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.342|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.342|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.357|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.357|INFO|Authorization was successful. 
+13:45:12.357|INFO|Executing endpoint '/relayhub' 
+13:45:12.357|DEBUG|Resuming existing connection. 
+13:45:12.357|INFO|Executed endpoint '/relayhub' 
+13:45:12.357|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.373|INFO|Request finished in 19.8829ms 200 application/octet-stream 
+13:45:12.373|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.373|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.373|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.373|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.373|INFO|Authorization was successful. 
+13:45:12.373|INFO|Executing endpoint '/relayhub' 
+13:45:12.373|DEBUG|Resuming existing connection. 
+13:45:12.389|INFO|Executed endpoint '/relayhub' 
+13:45:12.389|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.389|INFO|Request finished in 19.6682ms 200 application/octet-stream 
+13:45:12.389|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.389|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.389|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.389|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.389|INFO|Authorization was successful. 
+13:45:12.407|INFO|Executing endpoint '/relayhub' 
+13:45:12.407|DEBUG|Resuming existing connection. 
+13:45:12.407|INFO|Executed endpoint '/relayhub' 
+13:45:12.407|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.407|INFO|Request finished in 17.5128ms 200 application/octet-stream 
+13:45:12.562|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:52776/relayhub?id=VG51RHVLRqPODjzVWr9awA   
+13:45:12.562|DEBUG|1 candidate(s) found for the request path '/relayhub' 
+13:45:12.562|DEBUG|Request matched endpoint '/relayhub' 
+13:45:12.562|DEBUG|AuthenticationScheme: Negotiate was successfully authenticated. 
+13:45:12.578|INFO|Authorization was successful. 
+13:45:12.578|INFO|Executing endpoint '/relayhub' 
+13:45:12.578|DEBUG|Resuming existing connection. 
+13:45:12.602|INFO|Executed endpoint '/relayhub' 
+13:45:12.602|DEBUG|Connection id "0HLVNCLFJ9EUD" completed keep alive response. 
+13:45:12.612|INFO|Request finished in 50.5534ms 200 application/octet-stream 
+13:45:12.881|DEBUG|Connection id "0HLVNCLFJ9EUD" reset. 
+13:45:12.881|DEBUG|Connection id "0HLVNCLFJ9EUG" reset. 
+13:45:12.914|DEBUG|Connection id "0HLVNCLFJ9EUD" sending FIN because: "The client closed the connection." 
+13:45:12.914|DEBUG|Connection id "0HLVNCLFJ9EUG" sending FIN because: "The client closed the connection." 
+13:45:12.955|DEBUG|Connection id "0HLVNCLFJ9EUD" disconnecting. 
+13:45:12.955|DEBUG|Connection id "0HLVNCLFJ9EUG" disconnecting. 
+13:45:13.044|DEBUG|Connection id "0HLVNCLFJ9EUG" stopped. 
+13:45:13.044|DEBUG|Connection id "0HLVNCLFJ9EUD" stopped. 
